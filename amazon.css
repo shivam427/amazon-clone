@@ -6,8 +6,8 @@
 .navbar {
         background-color: rgb(43, 42, 42);
         max-width: 1360px;
-        height: 80px;
         display: flex;
+        height: 80px;
 
 }
 .navbar-1 {
@@ -16,8 +16,9 @@
         margin-top: -8px;
         height: 52px;
         display: flex;
-        color: white;
+        color: rgb(255, 255, 255);
         padding-top: 8px;
+        
 }
 .navbar-1 > div {
         margin: 0 24px;
@@ -60,10 +61,10 @@ input {
 .holder {
         background-color:white;
         height: 210px;
-        max-width: 1200px;
+        max-width: 1330px;
 }
 .holder > img {
-       max-width: 1333px;
+       max-width: 1330px;
 
 }
  .box-1 {
@@ -82,13 +83,14 @@ input {
        margin-top: 15px;
       
 }
+
 .container > img {
-       width: 299px;
-       height: 318px;
+       width: 280px;
+       height: 300px;
        padding-top: 15px;
        margin: 0 15px;
        padding-right: 10px;
-       border-radius: 17px;
+       border-radius: 5px;
        overflow: hidden;
 }
 .container-1 {
@@ -129,8 +131,8 @@ input {
        margin-top: 12px;
 }
 .container-3 > img {
-       padding-top: 34px;
-       max-width: 160px;
+       padding-top: 30px;
+       width: 160px;
        height: 140px;
        margin: 0 7px;
        padding-right: 20px;
@@ -148,7 +150,6 @@ input {
        margin: 0 7px;
        padding-right: 20px;
        padding-top: 30px;
-
 }
 .container-6 {
       max-width: 1330px;
@@ -158,9 +159,9 @@ input {
       margin-top: 13px;
 }
 .container-6 > img {
-      margin: 0 10px;
-      height: 180px;
-      max-width: 154px;
+      margin: 0 7px;
+      height: 140px;
+      width: 160px;
       padding-right: 20px;
       padding-top: 30px;
 }
@@ -172,9 +173,9 @@ input {
        margin-top: 13px;
 }
 .container-7 > img {
-      margin: 0 10px;
-      height: 180px;
-      width: 154px;
+      margin: 0 7px;
+      height: 140px;
+      width: 160px;
       padding-right: 20px;
       padding-top: 30px;
 }
@@ -186,9 +187,9 @@ input {
        margin-top: 13px;
 }
 .container-8 > img {
-      margin: 0 10px;
-      height: 180px;
-      width: 154px;
+      margin: 0 7px;
+      height: 140px;
+      width: 160px;
       padding-right: 20px;
       padding-top: 30px;
 }
@@ -200,9 +201,9 @@ input {
        margin-top: 13px;
 }
 .container-9 > img {
-      margin: 0 10px;
-      height: 180px;
-      width: 154px;
+      margin: 0 7px;
+      height: 140px;
+      width: 160px;
       padding-right: 20px;
       padding-top: 30px;
 }
@@ -215,9 +216,9 @@ input {
 
 }
 .container-10 > img {
-      margin: 0 10px;
-      height: 180px;
-      width: 158px;
+      margin: 0 7px;
+      height: 140px;
+      width: 160px;
       padding-right: 20px;
       padding-top: 30px;
 }
@@ -228,13 +229,14 @@ input {
       font-size: 15px;   
 }
 .btn {
-     background-color: yellowgreen;
+     background-color: rgba(172, 255, 5, 0.582);
      width: 305px;
      height: 28px;
      margin: auto;
      text-align: center;
      padding-top: 6px;
      border: 1px solid black;
+     border-radius: 3px;
 }
 .container-11 > img {
      margin: 0 20px;
@@ -272,12 +274,123 @@ li {
 .container-14 {
        display: flex;
        background-color: rgb(22, 22, 36);
-       height: 80px;
        max-width: 1330px;
        margin-top: -21px;
 }
-.container-14 > input {
-         width: 40px;
-         height: 30px;
+
+.amazon {
+        text-align: left;
+        font-size: 21px;
+        color: white;
+        padding-left: 340px;
+        padding-right: 81px;
+        font-family:sans-serif;
+        padding-top: 2px;
 }
+.button-1 {
+       margin: 0 2px;
+       width: 150px;
+       height: 31px;
+       margin-top: 2px;
+       color: white;
+       margin-bottom: 19px;
+       background-color: rgb(22, 22, 36);
+       border: 1px solid rgba(236, 227, 227, 0.493);
+       border-radius: 3px;
+}
+.container-15 {
+       display: flex;
+       background-color: rgb(20, 20, 20);
+       max-width: 1330px;
+       height: 570px;
+
+}
+.first-div {
+       padding-left: 165px;
+       margin-top: 10px ;
+}
+.second-div {
+       padding-left: 80px;
+       margin-top: 10px;
+}
+.third-div {
+       padding-left: 80px;
+       margin-top: 10px;
+}
+.fourth-div {
+       padding-left: 80px;
+       margin-top: 10px;
+}
+.fifth-div {
+       padding-left: 80px;
+       margin-top: 10px;
+}
+.sixth-div {
+       padding-left: 60px;
+       margin-top: 15px;
+}
+
+.container-17 {
+       background-color: whitesmoke;
+       max-width: 1330px;
+       height: 500px;
+       display: flex;
+}
+.first-box {
+       background-color: white;
+       height: 425px;
+       width: 328px;
+       margin-left: 8px;
+
+}
+.first-box > img {
+       width: 285px;
+       height: 315px;
+       margin-top: -29px;
+       padding: 20px;
+       padding-right: 9px;
+}
+.second-box {
+       background-color: white;
+       height: 425px;
+       width: 328px;
+       margin-left: 15px;
+}
+.second-box > img {
+       width: 285px;
+       height: 315px;
+       margin-top: -29px;
+       padding: 20px;
+       padding-right: 9px;
+}
+.third-box {
+       background-color: white;
+       height: 425px;
+       width: 328px;
+       margin-left: 15px; 
+}
+.third-box > img {
+       width: 285px;
+       height: 315px;
+       margin-top: -29px;
+       padding: 20px;
+       padding-right: 9px;
+}
+.fourth-box {
+       background-color: white;
+       height: 425px;
+       width: 300px;
+       margin-left: 15px; 
+}
+.fourth-box > img {
+       width: 123px;
+       height: 123px;
+       flex-wrap:wrap;
+       padding-left: 25px;
+       margin-right: -13px;
+}
+
+
+
+
 
